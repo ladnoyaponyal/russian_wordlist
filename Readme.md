@@ -95,6 +95,6 @@ python3 genword.py --list-patterns
 
 ## ✍️ Author
 
-[🔗 @yourhandle](https://t.me/profileusername)
+[🔗 @profileusername](https://t.me/profileusername)
 
 Pull requests, feature suggestions, and contributions are welcome!
