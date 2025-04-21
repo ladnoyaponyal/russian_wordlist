@@ -1,4 +1,3 @@
-```markdown
 # 🔐 Username Generator by Pattern
 
 A flexible username generator that takes a list of last names and produces login names based on customizable patterns. Perfect for OSINT, red teaming, internal reconnaissance, and building wordlists that match corporate username formats.
@@ -17,10 +16,10 @@ A flexible username generator that takes a list of last names and produces login
 
 ## 🚀 Installation
 
-```bash
+```
 git clone https://github.com/ladnoyaponyal/russian_wordlist.git
 cd russian_wordlist
-python3 gen_word.py --help
+python3 word_gen.py --help
 ```
 
 > ⚠️ Requires only Python 3 (no external dependencies)
@@ -43,26 +42,26 @@ sidporpv
 
 📌 **Generate usernames using all default patterns:**
 
-```bash
-python3 genword.py wordlists.txt
+```
+python3 word_gen.py wordlists.txt
 ```
 
 📌 **Save output to a file:**
 
-```bash
-python3 genword.py wordlists.txt -o usernames.txt
+```
+python3 word_gen.py wordlists.txt -o usernames.txt
 ```
 
 📌 **Generate usernames using specific patterns:**
 
-```bash
-python3 genword.py wordlists.txt -p i.s,is,s.i
+```
+python3 word_gen.py wordlists.txt -p i.s,is,s.i
 ```
 
 📌 **List available patterns:**
 
-```bash
-python3 genword.py --list-patterns
+```
+python3 word_gen.py --list-patterns
 ```
 
 ---
